@@ -49,7 +49,7 @@ class _CashTabBarState extends State<CashTabBar>
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 880,
+      height: 740,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,

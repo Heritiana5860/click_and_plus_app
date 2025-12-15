@@ -114,7 +114,7 @@ class _AppState extends State<App> with SingleTickerProviderStateMixin {
           elevation: 2,
           showUnselectedLabels: true,
           onTap: (value) {
-            _closeMenu(); // Fermer le menu lors du changement d'onglet
+            _closeMenu();
             setState(() {
               _currentIndex = value;
             });
@@ -200,7 +200,7 @@ class _AppState extends State<App> with SingleTickerProviderStateMixin {
             icon: const Icon(Icons.search),
             onPressed: () {
               setState(() => _isSearching = true);
-              _closeMenu(); // Fermer le menu lors de l'ouverture de la recherche
+              _closeMenu(); 
             },
           )
         else
